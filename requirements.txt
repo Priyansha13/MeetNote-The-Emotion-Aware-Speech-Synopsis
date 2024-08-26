@@ -1,0 +1,14 @@
+#pip install keyboard
+#pip install streamlit
+#pip install streamlit-webrtc
+
+
+
+streamlit
+streamlit-webrtc
+transformers
+torch
+soundfile
+scipy
+
+
