@@ -83,7 +83,7 @@ def main():
     option = st.selectbox("Choose an option:", ["Record Audio", "Upload Audio File", "Exit"])
 
     if option == "Record Audio":
-        duration = st.slider("Select recording duration (seconds):", min_value=1, max_value=10, value=5)
+        duration = st.slider("Select recording duration (seconds):", min_value=1, max_value=15, value=5)
         if st.button("Start Recording"):
             recording, samplerate = record_audio(duration)
             audio_file_path = save_audio(recording, samplerate)
